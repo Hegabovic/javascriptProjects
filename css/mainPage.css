@@ -1,0 +1,82 @@
+root{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #10002b;
+}
+h2{
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #c77dff;
+}
+.btn{
+    height: 40px;
+    color:#e0aaff;
+    border: 2px solid #c77dff;
+    border-radius: 20px;
+    background-color: #10002b;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Indie Flower', cursive;
+    letter-spacing: 2px;
+    padding-left:20px;
+    padding-right: 20px;
+}
+.btn:hover{
+    background-color: #c77dff;
+    color:#10002b;
+    font-weight: bold;
+}
+
+.day1{
+    width: 500px;
+    padding-left: 100px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    grid-gap: 50px;
+}
+
+.day2{
+    width: 1000px;
+    margin-left: 30px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
