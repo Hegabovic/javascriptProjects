@@ -6,11 +6,17 @@
     <link rel="stylesheet" href="css/mainPage.css">
     <link href="https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Neonderthaw&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7a26c5efc6.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <div>
-    <h1>Alexandria Branch:</h1>
-
+    <div class="head">
+        <h1>Alexandria Branch</h1>
+        <label class="nightModeSwitch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+        </label>
+    </div>
     <div>
         <h2>Day 1</h2>
         <div class="day1">
@@ -23,10 +29,13 @@
         <div class="day2">
             <input type=button onclick="openSumAndAvg();" id="sumAndAvg" class="btn" value="calculate Sum and Average">
             <input type=button onclick="openShapesArea();" id="shapesArea" class="btn" value="Calculate Shapes Areas">
-            <input type=button onclick="openPhoneBookApp();" id="phoneBookApp" class="btn" value="Calculate Shapes Areas">
+            <input type=button onclick="openPhoneBookApp();" id="phoneBookApp" class="btn"
+                   value="Calculate Shapes Areas">
         </div>
     </div>
 </div>
+
+
 <script>
     function openLogin() {
         open("loginPage.html", "", "width=600,height=600");
