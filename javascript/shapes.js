@@ -123,6 +123,5 @@ let myArr = [
     new Circle(5, 0, 0)
 ];
 
-console.log(myArr.forEach(P => P.log()));
+myArr.forEach(P => P.log());
 
-alert(myArr.forEach(P => P.log()));
